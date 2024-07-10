@@ -2,7 +2,7 @@ from workout_api.categorias.models import CategoriaModel
 from workout_api.centro_treinamento.models import CentroTreinamentoModel
 from workout_api.contrib.models import BaseModel
 from sqlalchemy.orm import Mapped, mapped_column, relationship
-from sqlalchemy import DateTime, Integer, String, Float
+from sqlalchemy import DateTime, ForeignKey, Integer, String, Float
 from datetime import datetime
 
 
