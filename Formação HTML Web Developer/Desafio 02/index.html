@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica MedMais</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="#home">Página Principal</a></li>
+                <li><a href="#sobre">Sobre a clínica</a></li>
+                <li><a href="#horario">Horário de Atendimento</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div id="home" class="header">
+                <h1>Clínica Médica MedMais</h1>
+            </div>
+    
+            <div class="content">
+                <div id="home" class="section">
+                    <h2>Bem-vindo à Clínica Médica MedMais</h2>
+                    <p>Oferecemos uma variedade de serviços médicos especializados para cuidar da sua saúde.</p>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW5xC7l1MPMk1D2hHH_5_xH-Nd5lsogHP_iw&s" alt="Imagem da clínica" style="max-width: 100%;">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Bv-J4XSRLx4?si=iV3bh6pfBJy7bGQx&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+                <div id="sobre" class="section">
+                    <h2>Sobre a Clínica</h2>
+                    <p>A Clínica Médica MedMais foi fundada em 1990 e oferece serviços de excelência em diversas especialidades médicas.</p>
+                    <table border="1" style="width: 100%; border-collapse: collapse;">
+                        <thead>
+                            <tr>
+                                <th>Especialidade</th>
+                                <th>Médico</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Cardiologia</td>
+                                <td>Dr. João Silva</td>
+                            </tr>
+                            <tr>
+                                <td>Dermatologia</td>
+                                <td>Dra. Maria Souza</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="horario" class="section">
+                    <h2>Horário de Atendimento</h2>
+                    <ul>
+                        <li>Segunda a Sexta: 8h - 18h</li>
+                        <li>Sábado: 8h - 12h</li>
+                        <li>Domingo: Fechado</li>
+                    </ul>
+                </div>
+                <div id="contato" class="section">
+                    <h2>Contato</h2>
+                    <form action="/enviar-mensagem" method="post">
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" id="nome" name="nome" required><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required><br>
+                        <label for="mensagem">Mensagem:</label><br>
+                        <textarea id="mensagem" name="mensagem" required></textarea><br>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+    
+            <div class="footer">
+                &copy; 2024 Clínica Médica MedMais
+            </div>
+        </div>
+    </div>
+</body>
+</html>
